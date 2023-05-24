@@ -37,7 +37,7 @@
   
   .imageContainer {
     flex: 1 1 50%;
-    padding: 10px;
+    padding: 0 10px;
     margin-bottom: 7%;
   }
   
@@ -59,7 +59,27 @@
     text-align: justify;
     font-size: 1.5em;
   }
+
+  .imageAndButtonContainer {
+    display: flex;
+    flex-direction: row;
+  }
   
+  .buildButton {
+    float: right;
+    margin-top: 25%;
+    margin-right: 30%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    width: 40%;
+    height: 10vh;
+    background-color: #D58936;
+    color: #69140E;
+  }
+
+  .buildButton:hover {
+    cursor:pointer;
+  }
 
 @media screen and (max-width: 414px) {
     .homeContainer {
@@ -73,5 +93,16 @@
 
     .textContainer {
         text-align: center;
+    }
+
+    .imageAndButtonContainer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .buildButton {
+      margin-top: 10%;
+      margin-right: 20%;
+      width: 60%;
     }
 }
