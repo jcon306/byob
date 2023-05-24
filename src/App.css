@@ -1,4 +1,17 @@
 body {
-  background-color: #D58936;
+  background-image: url('./Assets/cheese-banner.png');
   font-family: 'Aclonica';
+}
+
+hr {
+  width: 70%;
+  background-color: #69140E;
+  border: none;
+  height: 3px;
+}
+
+@media (max-width: 600px) { 
+  hr {
+    display:none ;
+  }
 }

@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
         <Navbar />
+        <hr />
           <div className='content'>
             <Routes>
               <Route exact path='/' element={<Home />} />
