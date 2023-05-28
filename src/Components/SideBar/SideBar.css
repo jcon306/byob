@@ -1,0 +1,11 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.defaultIMG {
+    width: 20vh;
+    height: auto;
+    mix-blend-mode: multiply;
+    margin: 10px;
+}
