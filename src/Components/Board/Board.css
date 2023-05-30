@@ -1,6 +1,7 @@
 .defaultBoard {
-    width: 900px;
-    height: 500px;
-    background-color: rgba(150, 62, 4, 1);
+    width: 1000px;
+    height: 400px;
+    mix-blend-mode: multiply;
     margin: 30px 40px;
+    z-index: -1;
 }
