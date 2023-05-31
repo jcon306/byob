@@ -9,9 +9,10 @@ const Board = () => {
     const draggedImage = document.getElementById(item);
   
     // Create a new image element
-    const droppedImage = new Image();
-    droppedImage.src = draggedImage.src;
-    droppedImage.className = 'droppedImage';
+    const droppedImage = new Image()
+    droppedImage.src = draggedImage.src
+    droppedImage.className = 'droppedImage'
+    draggedImage.draggable=true
   
     // Append the dropped image to the event target
     event.target.appendChild(droppedImage);
@@ -29,7 +30,10 @@ const Board = () => {
         src={defaultBoard}
         alt='Empty Cheese Board'
         onDrop={handleDrop} 
-        onDragOver={handleDragOver}>
+        onDragOver={handleDragOver}
+        draggable={false}
+        >
+        
       </img>  
     </div>
   );
