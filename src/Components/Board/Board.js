@@ -12,7 +12,7 @@ const Board = () => {
     const droppedImage = new Image()
     droppedImage.src = draggedImage.src
     droppedImage.className = 'droppedImage'
-    draggedImage.draggable=true
+    // draggedImage.draggable=true
   
     // Append the dropped image to the event target
     event.target.appendChild(droppedImage);
