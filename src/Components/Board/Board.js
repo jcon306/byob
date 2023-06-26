@@ -32,8 +32,7 @@ const Board = () => {
         onDrop={handleDrop} 
         onDragOver={handleDragOver}
         draggable={false}
-        >
-        
+        > 
       </img>  
     </div>
   );
